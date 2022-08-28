@@ -63,5 +63,5 @@ setTimeout(() => {
   console.log(JSON.stringify(testCache.toObject()))
   testCache.setKey('key5')
   console.log(JSON.stringify(testCache.toObject()))
-  // key5 is the latest, then key1, key4 and key3
+  // key5, key1, key4 and key3 are the most updated by set/get
 }, 5000)
